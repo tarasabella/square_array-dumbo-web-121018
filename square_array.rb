@@ -1,5 +1,6 @@
 def square_array(array)
-self.map {|num| num ** 2}
-    self
-end 
-end 
+  squared_array = []
+  array.each { |element| squared << element ** 2 }
+  squared_array
+end
+
